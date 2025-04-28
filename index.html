@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>eGrocery Store</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo">eGrocery </a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#popular-bundle-pack">Our Packages</a></li>
+        <li><a href="#download-app">Our App</a></li>
+      </ul>
+      <!--right-nav-(cart-like)-->
+      <div class="right-nav">
+        <!--like----->
+        <a href="#" class="like">
+          <i class="far fa-heart"></i>
+          <span>0</span>
+        </a>
+        <!--cart----->
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img src="https://freepngimg.com/thumb/tomato/1-tomato-png-image.png" class="bg-1" alt="bg" />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Order Your daily Groceries</h1>
+        <strong>#Free Delivery</strong>
+        <!--search-box------>
+        <form action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            id="search-input"
+            placeholder="Search your daily groceries"
+            name="search"
+            required
+          />
+          <div class="search-container">
+            <div id="mic-button">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWUCPBs5eJY-cjjzkGbAQbdjIvp3Y3qxrAw&s" alt="" height="40px"> <!-- Font Awesome icon -->
+            </div>
+        </div>
+          <!--btn------->
+          <input type="submit" class="search-btn" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+      </div>
+      <!--box-container---------->
+      <div class="category-container">
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/024/722/367/small/fish-with-ai-generated-free-png.png" alt="Fish" />
+          <span>Fish & Meat</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://e7.pngegg.com/pngimages/609/961/png-clipart-vegetables-vegetable-vegetarian-cuisine-cooking-food-health-vegetables-natural-foods-leaf-vegetable-thumbnail.png" alt="Fish" />
+          <span>Vegatbles</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L3B4NzQ3NzQ2LWltYWdlLWpvYjkyMS5wbmc.png" alt="Fish" />
+          <span>Medicine</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://w7.pngwing.com/pngs/739/949/png-transparent-child-neonate-pregnancy-mother-sleep-newborn-hand-people-toddler-thumbnail.png" alt="Fish" />
+          <span>Baby</span>
+        </a>
+        
+        <a href="#" class="category-box">
+          <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNjQwLXJlbWl4LTAyM2FfMS5wbmc.png" alt="Fish" />
+          <span>Beauty</span>
+        </a>
+        
+      </div>
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+      <!--heading----------->
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+        <span>All</span>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://pngfre.com/wp-content/uploads/apple-poster.png" alt="apple" />
+          <strong>Apple</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.250</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZyj5Vx_FdllviP7ZtLuVkkD-KwpnT3TAyQ&s" alt="Chili" />
+          <strong>Chili</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn2eGdZJDUWvU4_R2lKCBfjeWtk6OjB6DzyA&s" alt="Onion" />
+          <strong>Onion</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.60</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VnzCeCwHTUsq1PASGv37JRntw5a9ibuYIA&s" alt="Potato" />
+          <strong>Patato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.40</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://pngimg.com/d/garlic_PNG12766.png" alt="Garlic" />
+          <strong>Garlic</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.200</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://png.pngtree.com/png-clipart/20230113/ourmid/pngtree-red-fresh-tomato-with-green-leaf-png-image_6561484.png" alt="Tamato" />
+          <strong>Tamato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+      <!--heading-------------->
+      <div class="product-heading">
+        <h3>Popular Bundle Pack</h3>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://freepngimg.com/thumb/fruit/174352-and-vegetables-fruits-png-free-photo.png" alt="pack" />
+          <strong>Big Pack</strong>
+          <span class="quantity">Lemone, Tamato, Patato,+4</span>
+          <span class="price">Rs.500</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://img.freepik.com/premium-photo/assortment-fresh-fruits-vegetables-metal-basket-isolated-white_392895-360690.jpg?w=740" alt="apple" />
+          <strong>Large Pack</strong>
+          <span class="quantity">Lemone, Tamato, Patato,+2</span>
+          <span class="price">Rs.400</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://static.g3files.com/site-images/original/G320240112072419.jpg" alt="apple" />
+          <strong>Small Pack</strong>
+          <span class="quantity">Lemone, Tamato, Patato</span>
+          <span class="price">Rs300</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        
+        <!--box---------->
+        
+        <!--box---------->
+        
+      </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+      <!--heading------------>
+      <div class="partner-heading">
+        <h3>Our Trusted Partner</h3>
+      </div>
+      <!--logo-container----->
+      <div class="logo-container">
+        <img src="https://i.pinimg.com/originals/da/86/07/da8607ac3aa0e8c846b358317245bf5a.jpg" alt="logo" />
+        <img src="https://pngfre.com/wp-content/uploads/Adidas-Logo-2.png" alt="logo" />
+        <img src="https://p7.hiclipart.com/preview/718/1020/982/5bbc0e6ca0f06.jpg" alt="logo" />
+        
+
+      </div>
+    </section>
+    <!--logo-section-end--------------------->
+    <!--==Footer=============================================-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+          <a href="#">eGrocery</a>
+          <!--social----->
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Product</strong>
+          <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            
+          </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Category</strong>
+          <ul>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Meats</a></li>
+            <li><a href="#">Kids</a></li>
+          </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : +1234567890</a></li>
+            <li><a href="#">Email : egrocery12@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
